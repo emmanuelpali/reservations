@@ -37,7 +37,7 @@ namespace reservations
              
             }
 
-            IEnumerable<Reservation> reservations = hotel.GetReservayionsForUser("nephenry");
+            IEnumerable<Reservation> reservations = hotel.GetReservations();
 
             base.OnStartup(e);
         }
